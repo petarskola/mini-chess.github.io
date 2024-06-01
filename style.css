@@ -1,0 +1,49 @@
+body
+{
+    margin: 0;
+    background: rgb(61, 63, 92);
+}
+.board
+{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    box-shadow: 0 0 70px black;
+    border-radius: 20px;
+    overflow: hidden;
+    resize: both;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 800px;
+    max-height: 800px;
+    aspect-ratio: 1;
+}
+.cell
+{
+    width: 20%;
+    height: 20%;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(148, 125, 163);
+    transition: .1s;
+}
+#c00
+{
+    border-radius: 20px 0 0 0;
+}
+#c04
+{
+    border-radius: 0 20px 0 0;
+}
+#c40
+{
+    border-radius: 0 0 0 20px;
+}
+#c44
+{
+    border-radius: 0 0 20px 0;
+}
